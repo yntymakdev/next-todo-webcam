@@ -4,7 +4,9 @@ const WebcamCapture = () => {
 	return (
 		<section className={scss.WebcamCapture}>
 			<div className="container">
-				<div className={scss.content}></div>
+				<div className={scss.content}>
+					<h1>Camera</h1>
+				</div>
 			</div>
 		</section>
 	);
