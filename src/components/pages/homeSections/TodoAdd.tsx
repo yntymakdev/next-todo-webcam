@@ -17,7 +17,6 @@ const TodoAdd = () => {
 			`${process.env.NEXT_PUBLIC_UPLOAD_URL}/upload/file`,
 			formData
 		);
-
 		const newData = {
 			title: data.title,
 			img: responseImage.url,
